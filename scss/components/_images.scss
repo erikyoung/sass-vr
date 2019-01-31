@@ -1,0 +1,16 @@
+// ======================================
+//  Image Styles
+// ======================================
+
+.img-featured {
+  @include roundy($brdr:4px solid white, $dim:165px);
+  
+  border-radius: 50%;
+  margin-top: 75px;
+  position: relative;
+  z-index: 100;
+  @include mq(xs) {
+    display: none;
+	}
+}
+
