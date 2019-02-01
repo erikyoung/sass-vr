@@ -24,6 +24,12 @@
         'components/icons',
         'components/images';
 
+//Loops //
 
+@for $i from  1 through 10 {
+        .box-#{$i} {
+                background-color: adjust-hue(tomato, $i * 20); 
+        }
+}
 
 
